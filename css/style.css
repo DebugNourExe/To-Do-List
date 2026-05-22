@@ -29,16 +29,15 @@ a{
     gap: var(--gap);
 }
 body{
+    width: 100%;
     font-family: "Poppins", sans-serif;
     background: linear-gradient(135deg , var(--color-200), var(--color-400));
-    /* height: 100%; */
     min-height: 100vh;
     padding: var(--padding);
     flex-direction: column;
     scroll-behavior: smooth;   
-    padding-bottom: 8rem;
+    padding-bottom: 11rem;
     position: relative;
-
 }
 .container{
     flex-direction: column;
@@ -48,7 +47,6 @@ body{
     width: 100%;
     max-width: 60%;
     border-radius: var(--rounded);
-    /* margin-bottom: 40px; */
 }
 h1{
     color: var(--color-950);
