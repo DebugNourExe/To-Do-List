@@ -31,10 +31,14 @@ a{
 body{
     font-family: "Poppins", sans-serif;
     background: linear-gradient(135deg , var(--color-200), var(--color-400));
+    /* height: 100%; */
     min-height: 100vh;
     padding: var(--padding);
     flex-direction: column;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth;   
+     padding-bottom: 7rem;
+     position: relative;
+
 }
 .container{
     flex-direction: column;
@@ -161,6 +165,8 @@ h1{
 }
 .footer{
     width: 100%;
+    position: absolute;
+    bottom: 1rem;
     color: var(--color-950);
     font-size: 1rem;
     margin-top: 20px;
